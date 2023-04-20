@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class FizBuzzTest {
+class FizzBuzzTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals(FizzBuzz.fizzbuzz(1), "1");
 	}
 
 }
